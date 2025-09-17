@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7036206068256168880
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_EnviroDiffuse
+  m_Shader: {fileID: -6465566751694194690, guid: fb234f430f2dde54ebfd301b34466038, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _BUILTIN_QueueControl: 0
+    - _BUILTIN_QueueOffset: 0
+    - _Float: -0.48
+    - _Intensity: 1.14
+    m_Colors:
+    - _Attenuattion: {r: 0, g: 0, b: 0, a: 1}
+    - _EnviroColor: {r: 0.033079147, g: 0, b: 1, a: 1}
+    - _Intensity: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
+    - _LightColor: {r: 0.20776966, g: 0.24189608, b: 0.2735849, a: 1}
+    - _LightPosition: {r: 0, g: 0, b: 0, a: 1}
+    - _lightPosition: {r: 0.93, g: 6.42, b: -2.37, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
